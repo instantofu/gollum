@@ -1,0 +1,22 @@
+body {
+    background-color: #e60000;
+}
+
+h1 {
+    font-family: "Amita";
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: white;
+    line-height: 2.0;
+}
+
+
+.gollum-box {
+    margin-top: 100px;
+    padding: 50px;
+    text-align: center;
+}
+
+.image-gollum {
+    border-radius: 50%;
+}
