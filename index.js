@@ -1,4 +1,4 @@
-var names = ["Tam", "Muneeb", "Hoa", "Maida", "Dennis", "Srijana", "Silke"];
+var names = ["Tam", "Muneeb", "Hoa", "Maida", "Dennis", "Srijana", "Hadi", "Dirk"];
 
 
 function whosPaying() {
