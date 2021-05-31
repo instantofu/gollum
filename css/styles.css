@@ -20,6 +20,6 @@ h1 {
 .image-gollum {
     border-radius: 50%;
     border: 1px solid #ddd;
-    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
     width: 50%;
 }
