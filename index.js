@@ -14,3 +14,5 @@ function whosNextGollum() {
 nextGollum = whosNextGollum(names);
 
 document.querySelector("h1").innerHTML = "next Gollum is " + nextGollum + " !";
+
+
