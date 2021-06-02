@@ -8,11 +8,33 @@ function whosNextGollum() {
     var randomPerson = names[randomPersonPosition];
 
     return randomPerson;
-  
+
 }
 
 nextGollum = whosNextGollum(names);
 
-document.querySelector("h1").innerHTML = "next Gollum is " + nextGollum + " !";
 
 
+/*
+$("button").click(function() {
+  $("h1").text("next Gollum is " + nextGollum + " !");
+
+  setTimeout(function() {
+    $("h1").text("test");
+  }, 1000);
+
+});
+*/
+
+$("button").on("click", function() {
+  $("h1").text(nextGollum + " !");
+  $("h1").addClass("h1-name");
+  setTimeout(function() {
+    //$("h1").fade;
+    $("h1").slideUp().slideDown().animate({opacity: 0.5});
+    location.reload();
+  }, 3000);
+});
+
+// onClick="window.location.reload();"
+// document.querySelector("h1").innerHTML = "next Gollum is " + nextGollum + " !";
