@@ -39,3 +39,19 @@ p {
   .h1-name {
     color: gold;
   }
+
+@media (max-width: 1080px) {
+
+h1 {
+      font-family: "Amita";
+      font-size: 2rem;
+      font-weight: 700;
+      color: white;
+      line-height: 2.0;
+}
+
+.h1-name {
+      color: gold;
+  }
+
+}
